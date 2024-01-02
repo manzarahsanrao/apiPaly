@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Poppins:ital@1&family=Roboto&family=Roboto+Mono&display=swap');
+
+.card {
+    /* border: 2px solid blue; */
+    margin: 10px;
+    padding: 25px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #FFFAFA;
+    border-radius: 20px 0px 20px 0px;
+    gap: 10px;
+    font-size: 16.6px;
+    font-family: 'Poppins';
+}
+
+
+.span {
+    font-weight: 800;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}

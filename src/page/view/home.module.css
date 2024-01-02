@@ -1,0 +1,88 @@
+.container {
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Poppins'; */
+}
+
+.loader {
+    /* border: 2px solid red; */
+    margin-top: 40vh;
+
+}
+
+.heading {
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    /* border: 2px solid blue; */
+    align-self: stretch;
+    justify-content: center;
+
+}
+
+/* .heading>span {
+    justify-self: center;
+} */
+
+.heading>span:hover {
+    cursor: pointer;
+}
+
+
+.filter {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* justify-self: flex-end; */
+}
+
+.filter>input {
+    border: 1px solid #FFFAFA;
+    border-radius: 5px;
+    height: 29px;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+}
+
+
+.main {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width: 40%; */
+}
+
+.buttonbox {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0px;
+    /* border: 1px solid red; */
+}
+
+.button {
+    padding: 10px 15px;
+    border: 1px solid #FFFAFA;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #36D7B7;
+    border: 1px solid #36D7B7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
